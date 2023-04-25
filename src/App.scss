@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.shopping-item {
+  background-color: #F5F5F7;
+  border-radius: 5px;
+  padding: .1rem .5rem;
+  margin: .5rem;
+  text-align: start;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  align-items: center;
+
+  button {
+    padding: .5rem 0;
+  }
+}
+
+.shopping-cart {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+  .cart-item {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 5fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: start;
+    background-color: #F5F5F7;
+    border-radius: 5px;
+    padding: .5rem .5rem;
+    margin: .5rem;
+  }
+}
